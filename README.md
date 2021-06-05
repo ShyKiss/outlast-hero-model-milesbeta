@@ -1,6 +1,7 @@
 # Outlast Hero Model
 Model: Miles Upshur from beta version \
 State: Final Version (Good) \
+Shadow State: Missing Head \
 Archive Size: Normal (Uploaded here)
 
 **Screenshots**:
