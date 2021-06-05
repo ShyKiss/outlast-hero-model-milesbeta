@@ -1,4 +1,4 @@
-# outlast-hero-model-milesbeta
+# Outlast Hero Model
 Model: Miles Upshur from beta version \
 State: Final Version (Good) \
 Archive Size: Normal (Uploaded here)
