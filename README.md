@@ -22,14 +22,28 @@ Need Outlast: **https://store.steampowered.com/app/238320/Outlast**
 
 4. Drop OLCustomPlayerModelSDK.u in **[Outlast Dir]**/OLGame/CookedPCConsole
 
-5. Drop Level_Launcher.bat in **[Outlast Dir]** and open it.
+5. Change lines in **[Outlast Dir]**/OLGame/Config/DefaultGame.ini
 
-6. Clone this repository and extract "MilesPM" folder in **[Outlast Dir]**/PlayerModels
+      **Replace:** \
+         DefaultGame=OLGame.OLGame \
+         DefaultServerGame=OLGame.OLGame \
+         PlayerControllerClassName=OLGame.OLPlayerController \
+         DefaultGameType="OLGame.OLGame"
 
-7. Type in Level_Launcher.bat command line: ``mount [Model Folder Name]`` \
+      **To:** \
+         DefaultGame=OLCustomPlayerModelSDK.OLCustomGame \
+         DefaultServerGame=OLCustomPlayerModelSDK.OLCustomGame \
+         PlayerControllerClassName=OLGame.OLPlayerController \
+         DefaultGameType="OLCustomPlayerModelSDK.OLCustomGame"
+
+6. Drop Level_Launcher.bat in **[Outlast Dir]** and open it.
+
+7. Clone this repository and extract "MilesPM" folder in **[Outlast Dir]**/PlayerModels
+
+8. Type in Level_Launcher.bat command line: ``mount [Model Folder Name]`` \
    Example: ``mount MilesPM``
    
-8. Start Outlast.
+9. Start Outlast.
 
 # How update this?
 
